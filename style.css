@@ -9,7 +9,7 @@ body{
 .container {
     width: 1280px;
     display: flex;
-}
+} 
 
 .card{
     text-align: center;
@@ -95,7 +95,8 @@ place-items: center;
     width: 250px;
     grid-area: 1 / 1 / 4 / 2;
     transition: 600ms ease-out; /* Faster shrink */
-    z-index: 1;
+    z-index: 5;
+    mix-blend-mode: luminosity;
 }
 .unique{
     color: white;
